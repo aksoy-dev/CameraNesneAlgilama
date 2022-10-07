@@ -34,7 +34,7 @@ while True:
     t = t_arti
     t_arti = cv2.cvtColor(kamera.read()[1], cv2.COLOR_BGR2GRAY)
     key = cv2.waitKey(10)
-    if key == 27:  #esc tuşuna ile çıkış yap
+    if key == 27:  #esc tuşu ile çıkış yap
         cv2.destroyWindow(pencereIsmi)
         break
 
